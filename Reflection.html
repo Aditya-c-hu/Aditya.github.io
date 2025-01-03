@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,13 +9,13 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e6f7ff; /* Light blue background */
+            background-color: #f0f8ff; /* Light blue background */
             color: #333;
             line-height: 1.6;
         }
 
         header {
-            background-color: #000; /* Black nav bar */
+            background-color: #4682b4; /* Soothing blue */
             color: #fff;
             padding: 1rem 0;
             text-align: center;
@@ -28,7 +27,7 @@
         }
 
         nav {
-            background-color: #000; /* Black nav bar */
+            background-color: #4682b4; /* Soothing blue */
             color: #fff;
             padding: 0.5rem 1rem;
             display: flex;
@@ -57,7 +56,7 @@
         }
 
         nav ul li a:hover {
-            color: #1e90ff; /* Hover color */
+            color: #1abc9c; /* Hover color */
         }
 
         main {
@@ -72,10 +71,11 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 1.5rem;
+            text-align: left;
         }
 
         section h2 {
-            color: #1e90ff; /* Blue for headings */
+            color: #4682b4; /* Soothing blue for headings */
             margin-bottom: 1rem;
             font-size: 1.8rem;
         }
@@ -93,37 +93,39 @@
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #000; /* Black footer */
+            background-color: #4682b4; /* Soothing blue footer */
             color: #fff;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-       <main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Project_2.html">Theory Reflections</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Course Project - Design and Analysis of Algorithms</h1>
+    </header>
+    <main>
         <section id="nature-problems">
             <h2>Problems in Nature</h2>
-            <p>
-                Many real-world problems draw inspiration from nature, and computational methods offer innovative solutions:
-                <ul>
-                    <li><strong>Iteration:</strong> Iteration models seasonal phenomena such as weather predictions or environmental growth cycles.</li>
-                    <li><strong>Recursion:</strong> Recursive methods mirror natural processes like the branching patterns of trees or fractal coastline structures.</li>
-                    <li><strong>Backtracking:</strong> Wildlife migration optimization or finding paths in dense forests are examples of nature-inspired problem-solving.</li>
-                </ul>
-                By studying these patterns, algorithms can provide efficient and robust solutions.
-            </p>
+            <ul>
+                <li><strong>Iteration:</strong> Iteration models seasonal phenomena such as weather predictions or environmental growth cycles.</li>
+                <li><strong>Recursion:</strong> Recursive methods mirror natural processes like the branching patterns of trees or fractal coastline structures.</li>
+                <li><strong>Backtracking:</strong> Wildlife migration optimization or finding paths in dense forests are examples of nature-inspired problem-solving.</li>
+            </ul>
         </section>
 
         <section id="efficiency">
             <h2>Space and Time Efficiency</h2>
-            <p>
-                Optimizing space and time is fundamental in algorithm design:
-                <ul>
-                    <li><strong>Importance:</strong> Time efficiency ensures rapid computation, while space efficiency reduces resource consumption, crucial for IoT or mobile applications.</li>
-                    <li><strong>Complexity Classes:</strong> Understanding complexities such as O(1), O(n), and O(n^2) enables a structured evaluation of algorithm performance.</li>
-                    <li><strong>Example:</strong> Real-time applications like ride-hailing platforms require both time-efficient routing and space-efficient data storage.</li>
-                </ul>
-            </p>
+            <ul>
+                <li><strong>Importance:</strong> Time efficiency ensures rapid computation, while space efficiency reduces resource consumption, crucial for IoT or mobile applications.</li>
+                <li><strong>Complexity Classes:</strong> Understanding complexities such as O(1), O(n), and O(n^2) enables a structured evaluation of algorithm performance.</li>
+                <li><strong>Example:</strong> Real-time applications like ride-hailing platforms require both time-efficient routing and space-efficient data storage.</li>
+            </ul>
         </section>
 
         <section id="design-principles">
@@ -173,59 +175,45 @@
 
         <section id="array-queries">
             <h2>Array Query Algorithms</h2>
-            <p>
-                Efficient array queries have a profound impact on data processing:
-                <ul>
-                    <li><strong>Range Queries:</strong> Data structures like Segment Trees and Fenwick Trees enhance query efficiency.</li>
-                    <li><strong>Applications:</strong> From financial data analysis to competitive programming, array query algorithms are indispensable.</li>
-                </ul>
-            </p>
+            <ul>
+                <li><strong>Range Queries:</strong> Data structures like Segment Trees and Fenwick Trees enhance query efficiency.</li>
+                <li><strong>Applications:</strong> From financial data analysis to competitive programming, array query algorithms are indispensable.</li>
+            </ul>
         </section>
 
         <section id="tree-graphs">
             <h2>Trees vs Graphs</h2>
-            <p>
-                Trees and graphs are versatile data structures with distinct applications:
-                <ul>
-                    <li><strong>Trees:</strong> Suitable for hierarchical data representation like XML or file systems.</li>
-                    <li><strong>Graphs:</strong> Representing networks like social media, transportation, or electrical grids.</li>
-                </ul>
-                Traversals like DFS and BFS enable efficient exploration and processing of these structures.
-            </p>
+            <ul>
+                <li><strong>Trees:</strong> Suitable for hierarchical data representation like XML or file systems.</li>
+                <li><strong>Graphs:</strong> Representing networks like social media, transportation, or electrical grids.</li>
+            </ul>
+            <p>Traversals like DFS and BFS enable efficient exploration and processing of these structures.</p>
         </section>
 
         <section id="sorting-searching">
             <h2>Sorting and Searching Algorithms</h2>
-            <p>
-                Sorting and searching are foundational to data manipulation:
-                <ul>
-                    <li><strong>Sorting Algorithms:</strong> Merge Sort, Quick Sort, and Heap Sort efficiently arrange data.</li>
-                    <li><strong>Searching Algorithms:</strong> Techniques like Binary Search provide fast lookup times.</li>
-                    <li><strong>Real-world Use Cases:</strong> Used in database indexing, search engines, and e-commerce applications.</li>
-                </ul>
-            </p>
+            <ul>
+                <li><strong>Sorting Algorithms:</strong> Merge Sort, Quick Sort, and Heap Sort efficiently arrange data.</li>
+                <li><strong>Searching Algorithms:</strong> Techniques like Binary Search provide fast lookup times.</li>
+                <li><strong>Real-world Use Cases:</strong> Used in database indexing, search engines, and e-commerce applications.</li>
+            </ul>
         </section>
 
         <section id="graph-algorithms">
             <h2>Graph Algorithms</h2>
-            <p>
-                Graph algorithms have diverse real-world applications:
-                <ul>
-                    <li><strong>Spanning Trees:</strong> Applications include network optimization, minimum spanning tree algorithms like Kruskal's and Prim's.</li>
-                    <li><strong>Shortest Paths:</strong> GPS navigation systems and supply chain optimization rely on shortest-path algorithms such as Dijkstra's and Bellman-Ford.</li>
-                </ul>
-            </p>
+            <ul>
+                <li><strong>Spanning Trees:</strong> Applications include network optimization, minimum spanning tree algorithms like Kruskal's and Prim's.</li>
+                <li><strong>Shortest Paths:</strong> GPS navigation systems and supply chain optimization rely on shortest-path algorithms such as Dijkstra's and Bellman-Ford.</li>
+            </ul>
         </section>
 
         <section id="design-techniques">
             <h2>Algorithm Design Techniques</h2>
-            <p>
-                Algorithm design techniques like brute force, divide-and-conquer, dynamic programming, and greedy approaches are invaluable in solving complex computational problems.
-                <ul>
-                    <li><strong>Examples:</strong> From string matching with Rabin-Karp to efficient resource allocation, design techniques guide solutions.</li>
-                    <li><strong>Takeaway:</strong> The choice of design approach balances simplicity, optimization, and scalability.</li>
-                </ul>
-            </p>
+            <ul>
+                <li>Algorithm design techniques like brute force, divide-and-conquer, dynamic programming, and greedy approaches are invaluable in solving complex computational problems.</li>
+                <li><strong>Examples:</strong> From string matching with Rabin-Karp to efficient resource allocation, design techniques guide solutions.</li>
+                <li><strong>Takeaway:</strong> The choice of design approach balances simplicity, optimization, and scalability.</li>
+            </ul>
         </section>
     </main>
     <footer>
